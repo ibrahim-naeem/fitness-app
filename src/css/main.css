@@ -1,0 +1,33 @@
+.bg-image{
+    background-image: url(../images/bg-image.jpg);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-size: cover;
+    background-position: center;
+    /* opacity: 0.9; */
+}
+
+.align-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-25%, -60%);
+}
+
+.is-active{
+    font-weight: bold;
+}
+
+
+
+
+
+
+.errMessage{
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  padding: 6px 0px 0px 0px;
+  margin: 6px 0px 0px 0px;
+}
